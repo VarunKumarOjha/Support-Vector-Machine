@@ -1,0 +1,21 @@
+% This is xor dataset
+@relation xor
+@attribute x1 integer[0,1]
+@attribute x2 real[0,1]
+@attribute Class{-1,1}
+@inputs x1, x2
+@outputs Class
+
+
+@data
+5, 0, -1
+0, 1, 1
+1, 0, 1
+1, 6, -1
+1, 1, -1
+1, 0, 1
+1, 1, -1
+1, 1, -1
+1, 0, 1
+1, 1, -1
+1, 1, -1
